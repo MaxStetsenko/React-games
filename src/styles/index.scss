@@ -1,0 +1,20 @@
+@import './variable.scss';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background: var(--main-bg);
+  color: var(--color-w);
+}
+
+.App {
+  font-family: sans-serif;
+
+  min-height: 100vh;
+  padding: 20px;
+
+  text-align: center;
+}
